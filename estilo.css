@@ -1,0 +1,254 @@
+body{
+	background:#58D3F7;
+}
+#contenedor{
+	background: rgba(255,255,255,0.3);
+	width: 90%;
+	margin: auto;
+	height: 1000px;
+}
+h1{
+	font-family: Helvetica;
+	color: white;
+	background: #58D3F7;
+	height: 35px;
+	margin: auto;
+	text-align: center;
+	width: 50%;
+}
+h3:hover{
+	color: orange;
+	-webkit-transition: .3s ease;
+}
+#banner{
+	width: 20%;
+	-ms-filter: sepia(0.9) blur(3px) brightness(60%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+-webkit-filter: sepia(0.9) blur(3px) brightness(60%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+-moz-filter: sepia(0.9) blur(3px) brightness(60%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+-o-filter: sepia(0.9) blur(3px) brightness(60%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+filter: sepia(0.9) blur(3px) brightness(60%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+}
+#banner:hover{
+-ms-filter: brightness(90%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+-webkit-filter: brightness(90%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+-moz-filter: brightness(90%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+-o-filter: brightness(90%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+filter: brightness(90%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+}
+img{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+h6{
+	color: white;
+	font-family: helvetica;
+	background: rgba(0,0,0,0.3);
+	height: auto;
+	margin: auto;
+	margin-top: 30px;
+	text-align: justify;
+	width: 70%;
+	-ms-filter: sepia(0.9) blur(3px) brightness(60%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+-webkit-filter: sepia(0.9) blur(3px) brightness(60%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+-moz-filter: sepia(0.9) blur(3px) brightness(60%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+-o-filter: sepia(0.9) blur(3px) brightness(60%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+filter: sepia(0.9) blur(3px) brightness(60%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+}
+h6:hover{
+	-ms-filter: brightness(90%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+-webkit-filter: brightness(90%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+-moz-filter: brightness(90%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+-o-filter: brightness(90%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+filter: brightness(90%) hue-rotate(360deg) drop-shadow(-2px -1px 2px #1F9EFF);
+}
+
+p{
+	color: white;
+	font-family: helvetica;
+	background: rgba(0,0,0,0.3);
+	height: auto;
+	margin: auto;
+	margin-top: 60px;
+	text-align: justify;
+	width: 70%;
+}
+/* dibuja el texto seleccionado en un parrafo de color blanco y negro*/
+/*::-moz-selection { color: black;  background: #A9F5D0; }*/
+::selection      { color: black;  background: #A9F5D0; }
+/*--- Menu ---*/
+#menu{
+	height:80px;
+	margin-top: 20px;
+	border-bottom:4px solid #58D3F7;
+}
+#menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	width:474px;
+	height:60px;
+	display:block;
+	background:#58D3F7;
+	float:right;
+	padding-top:20px;
+}
+#menu li{
+	float:left;
+}
+#menu li a{
+	line-height:40px;
+	display: block;
+	padding: 0 25px;
+	border-right: 4px solid #FFF;
+	border-bottom:4px solid #58D3F7;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #FFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+#menu li a:hover{
+	color:#000;
+	background: #A9F5D0;
+	-webkit-transition: .2s ease;
+	border-bottom:4px solid black;
+}
+#pie{
+	background: rgba(255,255,255,0.4);
+	height: 35px;
+	margin: auto;
+	text-align: center;
+	width: 80%;
+}
+h5{
+	padding-top: 9px;
+}
+#web{
+	text-decoration: none;
+	color: black;
+}
+#web:hover{
+	background: orange;
+	color: black;
+	border-bottom: 1px solid #000;
+	-webkit-transition: .7s ease;
+}
+.btn {
+  background: #34c6d9;
+  background-image: -webkit-linear-gradient(top, #34c6d9, #10686e);
+  background-image: -moz-linear-gradient(top, #34c6d9, #10686e);
+  background-image: -ms-linear-gradient(top, #34c6d9, #10686e);
+  background-image: -o-linear-gradient(top, #34c6d9, #10686e);
+  background-image: linear-gradient(to bottom, #34c6d9, #10686e);
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 6px 6px 6px 6px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #09e8d9;
+  cursor: pointer;
+  background-image: -webkit-linear-gradient(top, #09e8d9, #273332);
+  background-image: -moz-linear-gradient(top, #09e8d9, #273332);
+  background-image: -ms-linear-gradient(top, #09e8d9, #273332);
+  background-image: -o-linear-gradient(top, #09e8d9, #273332);
+  background-image: linear-gradient(to bottom, #09e8d9, #273332);
+  text-decoration: none;
+}
+/**********************************/
+/***    DISEÑO PARA TABLETAS    ***/
+/**********************************/
+@media only screen and (max-width:768px){
+	body{
+		background: #58D3F7;
+		margin:15px;
+	}
+	/*--- Maquetacion ---*/
+	#contenedor{
+		width:96%;
+		padding:2%;
+	}
+	/*#logo{
+		width:100%;
+		height:auto;
+		float:none;
+	}*/
+	/*--- Menu ---*/
+	#menu ul{
+		float: none;
+		margin: 0 auto;
+	}
+}
+/******************************************/
+/***    DISEÑO PARA MOVILES 480        ****/
+/******************************************/
+@media only screen and (max-width:480px){
+	body{
+		margin:8px;
+		background: #58D3F7;
+	}
+	/*--- Maquetación ---*/
+	#contenedor{
+		width: 98%;
+		padding: 1%;
+	}
+	/*--- Menu ---*/
+	#menu{
+		height:auto;
+		border-bottom:none;
+	}
+	#menu ul{
+		width:100%;
+		height:auto;
+		background:none;
+		float:none;
+		padding-top:0;
+	}
+	#menu li{
+		float:none;
+	}
+	#menu li a{
+		line-height: 30px;
+		display: block;
+		background: #58D3F7;
+		padding: 0;
+		text-align: center;
+		border-right: none;
+		font-size: 13px;
+		margin-bottom: 4px white;
+	}
+}
+/******************************************/
+/***    DISEÑO PARA MOVILES 320        ****/
+/******************************************/
+@media only screen and (max-width:320px){
+	/*#logo img{
+		width:60%;
+		height:auto;
+	}*/
+	body{
+		background: #58D3F7;
+	}
+	h1{
+		height: auto;
+	}
+	#pie{
+		height: auto;
+	}
+	#contenedor{
+		height: 1570px;
+	}
+}
+/******************************************/
+/***    DISEÑO PARA MOVILES 240        ****/
+/******************************************/
+@media only screen and (max-width:240px){
+		body{
+		margin:5px;
+	}
+}
